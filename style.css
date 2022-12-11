@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(https://cdn.pixabay.com/photo/2022/11/24/02/28/clouds-7613361_960_720.png) ;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family:"Roboto", sans-serif;
+    font-weight: 600;
+}
+
+h1 {
+    margin: 40px;
+    text-align: center;
+
+}
+
+form  {
+    border-radius: 8px;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px  5px  15px;
+    margin-top: 20px;
+    background-color:  #8bc6ec;
+    background-image: linear-gradient(135deg,  #8bc6ec 0%, #9599e2 100%);
+    
+    text-align: center;
+    padding: 10px 50px;
+    width: fit-content;
+    margin: 10px auto;
+}
+
+
+label  {
+    margin: 20px 0;
+    display: inline-block;
+    text-align: left;
+    width: 120px;
+    height: 40px;
+}
+
+input  {
+    height: 40px;
+    text-align: center;
+    border-color: white;
+    border-radius: 8px;
+}
+
+.buttom {
+    border: none;
+    border-radius: 15px;
+    padding: 0 20px;
+    display: inline-block;
+    background-color: rgb(235,154, 217 );
+    width: 100px;
+    margin: 10px 0;
+
+}
+.buton :hover {
+    background-color: purple;
+    cursor: pointer;
+    font-weight: 600;
+}
+
